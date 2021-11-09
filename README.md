@@ -12,3 +12,11 @@ dotnet ef --startup-project ./RestBackend.Api/RestBackend.Api.csproj -p ./RestBa
 ```
 Mas info: https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli
 ```
+## Credenciales de prueba
+Credenciales para la realizacion de pruebas, se cargan al realizar la migracion
+```
+{
+  "userName": "admin",
+  "password": "Tempora02"
+}
+```
