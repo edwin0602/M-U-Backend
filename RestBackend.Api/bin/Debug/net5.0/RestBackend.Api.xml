@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RestBackend.Api</name>
+    </assembly>
+    <members>
+        <member name="M:RestBackend.Api.Controllers.OwnersController.Create(RestBackend.Core.Resources.CreateOwnerResource)">
+            <summary>
+            Create a new Owner
+            </summary>
+            <response code="200">Owner created</response>
+            <response code="400">An error occurred</response>
+            <response code="500">An unhandled  error occurred</response>
+        </member>
+        <member name="M:RestBackend.Api.Controllers.OwnersController.Update(System.Int32,RestBackend.Core.Resources.OwnerResource)">
+            <summary>
+            Update Owner info
+            </summary>
+            <response code="200">Owner updated</response>
+            <response code="400">An error occurred</response>
+            <response code="500">An unhandled  error occurred</response>
+        </member>
+        <member name="M:RestBackend.Api.Controllers.OwnersController.FindById(System.Int32)">
+            <summary>
+            Get an Owner by Id
+            </summary>
+            <param name="idOwner"></param>
+            <response code = "200">Owner</response>
+            <response code="400">An error occurred</response>
+            <response code="500">An unhandled  error occurred</response>
+        </member>
+        <member name="M:RestBackend.Api.Controllers.OwnersController.GetAll(RestBackend.Core.Resources.Pagination.PaginationFilter)">
+            <summary>
+            Get an Owners list by filters and paginated
+            </summary>
+            <response code = "200">Owner paged list</response>
+            <response code="400">An error occurred</response>
+            <response code="500">An unhandled  error occurred</response>
+        </member>
+        <member name="M:RestBackend.Api.Controllers.OwnersController.GetPropertiesByOwner(System.Int32,RestBackend.Core.Resources.Pagination.PaginationFilter)">
+            <summary>
+            Get a Property list by Owner Id
+            </summary>
+            <response code = "200">Properties paged list</response>
+            <response code="400">An error occurred</response>
+            <response code="500">An unhandled  error occurred</response>
+        </member>
+        <member name="M:RestBackend.Api.Controllers.PropertiesController.Create(RestBackend.Core.Resources.CreatePropertyResource)">
+            <summary>
+            Create a new Property
+            </summary>
+            <response code="200">Property created</response>
+            <response code="400">An error occurred</response>
+            <response code="500">An unhandled  error occurred</response>
+        </member>
+        <member name="M:RestBackend.Api.Controllers.PropertiesController.Update(System.Int32,RestBackend.Core.Resources.PropertyResource)">
+            <summary>
+            Update Property info
+            </summary>
+            <response code="200">Property updated</response>
+            <response code="400">An error occurred</response>
+            <response code="500">An unhandled  error occurred</response>
+        </member>
+        <member name="M:RestBackend.Api.Controllers.PropertiesController.UpdatePrice(System.Int32,System.Decimal)">
+            <summary>
+            Update Property price
+            </summary>
+            <response code="200">Property price updated</response>
+            <response code="400">An error occurred</response>
+            <response code="500">An unhandled  error occurred</response>
+        </member>
+        <member name="M:RestBackend.Api.Controllers.PropertiesController.Sell(System.Int32,System.Decimal,System.Int32)">
+            <summary>
+            Sell Property to new Owner
+            </summary>
+            <response code="200">Property owner updated</response>
+            <response code="400">An error occurred</response>
+            <response code="500">An unhandled  error occurred</response>
+        </member>
+        <member name="M:RestBackend.Api.Controllers.PropertiesController.FindById(System.Int32)">
+            <summary>
+            Get Property by Id
+            </summary>
+            <response code="200">Property</response>
+            <response code="400">An error occurred</response>
+            <response code="500">An unhandled  error occurred</response>
+        </member>
+        <member name="M:RestBackend.Api.Controllers.PropertiesController.GetAll(RestBackend.Core.Resources.Pagination.PaginationFilter,RestBackend.Core.Resources.PropertyFilterResource)">
+            <summary>
+            Get a Properties list filtered and paginated
+            </summary>
+            <response code="200">Properties paged list</response>
+            <response code="400">An error occurred</response>
+            <response code="500">An unhandled  error occurred</response>
+        </member>
+        <member name="M:RestBackend.Api.Controllers.PropertiesController.GetTrace(System.Int32)">
+            <summary>
+            Get a Trace list by Property
+            </summary>
+            <response code="200">Property traces list</response>
+            <response code="400">An error occurred</response>
+            <response code="500">An unhandled  error occurred</response>
+        </member>
+        <member name="M:RestBackend.Api.Controllers.PropertiesController.AddImage(System.Int32,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Add image to property
+            </summary>
+            <response code="200">Image added</response>
+            <response code="400">An error occurred</response>
+            <response code="500">An unhandled  error occurred</response>
+        </member>
+        <member name="M:RestBackend.Api.Controllers.PropertiesController.GetImages(System.Int32)">
+            <summary>
+            Get images from property
+            </summary>
+            <response code="200">Image's list</response>
+            <response code="400">An error occurred</response>
+            <response code="500">An unhandled  error occurred</response>
+        </member>
+        <member name="M:RestBackend.Api.Controllers.PropertiesController.DeleteImages(System.Int32,System.Int32)">
+            <summary>
+            Remove image from property by Id
+            </summary>
+            <response code="200">Image removed</response>
+            <response code="400">An error occurred</response>
+            <response code="500">An unhandled  error occurred</response>
+        </member>
+        <member name="M:RestBackend.Api.Controllers.RolesController.GetAllRoles">
+            <summary>
+            Get all roles
+            </summary>
+            <response code="200">Role's list</response>
+            <response code="400">An error occurred</response>
+            <response code="500">An unhandled  error occurred</response>
+        </member>
+        <member name="M:RestBackend.Api.Controllers.UsersController.Register(RestBackend.Core.Resources.CreateUserResource)">
+            <summary>
+            Create an User
+            </summary>
+            <response code="200">Created user message</response>
+            <response code="400">An error occurred</response>
+            <response code="500">An unhandled  error occurred</response>
+        </member>
+        <member name="M:RestBackend.Api.Controllers.UsersController.Authenticate(RestBackend.Core.Resources.LoginResource)">
+            <summary>
+            Generate a login token
+            </summary>
+            <response code="200">Token</response>
+            <response code="400">An error occurred</response>
+            <response code="500">An unhandled  error occurred</response>
+        </member>
+        <member name="M:RestBackend.Api.Controllers.UsersController.GenerateForgotPasswordToken(System.String,System.String)">
+            <summary>
+            Send a forgot password token
+            </summary>
+            <response code="200">Forgot password token sended</response>
+            <response code="400">An error occurred</response>
+            <response code="500">An unhandled  error occurred</response>
+        </member>
+        <member name="M:RestBackend.Api.Controllers.UsersController.ResetPassword(System.String,RestBackend.Core.Resources.ResetPasswordResource)">
+            <summary>
+            Update password using a forgot password token 
+            </summary>
+            <response code="200">Password was updated</response>
+            <response code="400">An error occurred</response>
+            <response code="500">An unhandled  error occurred</response>
+        </member>
+        <member name="M:RestBackend.Api.Extensions.AuthExtensions.AddAuth(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Add Identity and JWT services
+            </summary>
+            <param name="services"></param>
+            <param name="Configuration"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RestBackend.Api.Extensions.AuthExtensions.UseAuth(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Add authentication services
+            </summary>
+            <param name="app"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RestBackend.Api.Extensions.ServiceExtensions.AddServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Add Bussines and logic services
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RestBackend.Api.Extensions.SwaggerExtensions.AddSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Add Swagger services
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RestBackend.Api.Extensions.SwaggerExtensions.ConfigureSwagger(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Add Swagger configuration
+            </summary>
+            <param name="app"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

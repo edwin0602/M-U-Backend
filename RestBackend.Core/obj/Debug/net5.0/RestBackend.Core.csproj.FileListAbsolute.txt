@@ -1,0 +1,12 @@
+D:\edwin\Documents\Repositorios\M&U\RestBackend.Api\RestBackend.Core\bin\Debug\net5.0\RestBackend.Core.deps.json
+D:\edwin\Documents\Repositorios\M&U\RestBackend.Api\RestBackend.Core\bin\Debug\net5.0\RestBackend.Core.dll
+D:\edwin\Documents\Repositorios\M&U\RestBackend.Api\RestBackend.Core\bin\Debug\net5.0\ref\RestBackend.Core.dll
+D:\edwin\Documents\Repositorios\M&U\RestBackend.Api\RestBackend.Core\bin\Debug\net5.0\RestBackend.Core.pdb
+D:\edwin\Documents\Repositorios\M&U\RestBackend.Api\RestBackend.Core\obj\Debug\net5.0\RestBackend.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\edwin\Documents\Repositorios\M&U\RestBackend.Api\RestBackend.Core\obj\Debug\net5.0\RestBackend.Core.AssemblyInfoInputs.cache
+D:\edwin\Documents\Repositorios\M&U\RestBackend.Api\RestBackend.Core\obj\Debug\net5.0\RestBackend.Core.AssemblyInfo.cs
+D:\edwin\Documents\Repositorios\M&U\RestBackend.Api\RestBackend.Core\obj\Debug\net5.0\RestBackend.Core.csproj.CoreCompileInputs.cache
+D:\edwin\Documents\Repositorios\M&U\RestBackend.Api\RestBackend.Core\obj\Debug\net5.0\RestBackend.Core.dll
+D:\edwin\Documents\Repositorios\M&U\RestBackend.Api\RestBackend.Core\obj\Debug\net5.0\ref\RestBackend.Core.dll
+D:\edwin\Documents\Repositorios\M&U\RestBackend.Api\RestBackend.Core\obj\Debug\net5.0\RestBackend.Core.pdb
+D:\edwin\Documents\Repositorios\M&U\RestBackend.Api\RestBackend.Core\obj\Debug\net5.0\RestBackend.Core.csproj.AssemblyReference.cache

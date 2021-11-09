@@ -1,0 +1,15 @@
+D:\edwin\Documents\Repositorios\M&U\RestBackend.Api\RestBackend.Security\bin\Debug\net5.0\RestBackend.Security.deps.json
+D:\edwin\Documents\Repositorios\M&U\RestBackend.Api\RestBackend.Security\bin\Debug\net5.0\RestBackend.Security.dll
+D:\edwin\Documents\Repositorios\M&U\RestBackend.Api\RestBackend.Security\bin\Debug\net5.0\ref\RestBackend.Security.dll
+D:\edwin\Documents\Repositorios\M&U\RestBackend.Api\RestBackend.Security\bin\Debug\net5.0\RestBackend.Security.pdb
+D:\edwin\Documents\Repositorios\M&U\RestBackend.Api\RestBackend.Security\bin\Debug\net5.0\RestBackend.Core.dll
+D:\edwin\Documents\Repositorios\M&U\RestBackend.Api\RestBackend.Security\bin\Debug\net5.0\RestBackend.Core.pdb
+D:\edwin\Documents\Repositorios\M&U\RestBackend.Api\RestBackend.Security\obj\Debug\net5.0\RestBackend.Security.csproj.AssemblyReference.cache
+D:\edwin\Documents\Repositorios\M&U\RestBackend.Api\RestBackend.Security\obj\Debug\net5.0\RestBackend.Security.GeneratedMSBuildEditorConfig.editorconfig
+D:\edwin\Documents\Repositorios\M&U\RestBackend.Api\RestBackend.Security\obj\Debug\net5.0\RestBackend.Security.AssemblyInfoInputs.cache
+D:\edwin\Documents\Repositorios\M&U\RestBackend.Api\RestBackend.Security\obj\Debug\net5.0\RestBackend.Security.AssemblyInfo.cs
+D:\edwin\Documents\Repositorios\M&U\RestBackend.Api\RestBackend.Security\obj\Debug\net5.0\RestBackend.Security.csproj.CoreCompileInputs.cache
+D:\edwin\Documents\Repositorios\M&U\RestBackend.Api\RestBackend.Security\obj\Debug\net5.0\RestBackend.Security.csproj.CopyComplete
+D:\edwin\Documents\Repositorios\M&U\RestBackend.Api\RestBackend.Security\obj\Debug\net5.0\RestBackend.Security.dll
+D:\edwin\Documents\Repositorios\M&U\RestBackend.Api\RestBackend.Security\obj\Debug\net5.0\ref\RestBackend.Security.dll
+D:\edwin\Documents\Repositorios\M&U\RestBackend.Api\RestBackend.Security\obj\Debug\net5.0\RestBackend.Security.pdb
